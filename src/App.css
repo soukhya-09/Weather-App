@@ -1,0 +1,96 @@
+body{
+ background-image: linear-gradient(to right, rgb(103, 103, 231),rgb(252, 96, 96),rgb(161, 221, 161));
+}
+
+.new{
+display: grid;
+grid-template-columns: 30% 70%;
+grid-template-rows:50% 50% ;
+gap: 10px;
+row-gap: 20px;
+
+}
+
+@media (width > 1196px){
+    h1{
+    
+    font-size:x-large;
+    }
+    h2{
+       font-size: large;
+        
+       }
+       h3{
+        font-size: smaller;
+       }
+   }
+
+@media (width < 1196px ) and (width>843){
+ h1{
+    font-size: large;
+ 
+ }
+ h2{
+    font-size: smaller;
+     
+    }
+    h3{
+        font-size: small;
+    }
+}
+
+
+
+   @media (width < 844px) and (width > 740px ){
+    h1{
+     
+    font-size:medium;
+    }
+    h2{
+       font-size: small;
+        
+       }
+       h3{
+        font-size: smaller;
+       }
+   }
+   @media (width < 741px) and (width > 657px){
+    h1{
+     
+    font-size:medium;
+    }
+    h2{
+       font-size: smaller;
+        
+       }
+       h3{
+        font-size:x-small;
+       }
+   }
+   @media (width < 657px) and (width>609px){
+    h1{
+     
+    font-size:small;
+    }
+    h2{
+       font-size: smaller;
+        
+       }
+       h3{
+        font-size:x-small;
+       }
+   }
+   @media (width < 609px){
+    h1{
+     
+    font-size:x-small;
+    }
+    h2{
+       font-size: x-small;
+        
+       }
+       h3{
+       
+        font-size:x-small;
+       }
+   }
